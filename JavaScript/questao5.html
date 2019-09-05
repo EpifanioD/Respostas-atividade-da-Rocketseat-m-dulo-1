@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Lembrando que só vai conseguir ver a resposta no Console!</h1>
+        <a href="Index.html">Back</a>
+        <script>
+            var usuarios = [
+                { nome:"Diego", 
+        
+                    habilidades: ["Javascript", "ReactJS", "Redux"]},
+        
+                { nome:"Gabriel", 
+        
+                    habilidades: ["VueJS", "Ruby on Rails", "Elixir"]}
+
+                ];
+                //ultilizei o (for... of) para navegar dentro do array 
+                for(let value of usuarios){
+
+                    console.log('O '+ value.nome +' possui as habilidades: '+ value.habilidades.join(", "));
+                }
+                //o join para manusear no array e mostrar o que a atividade quer
+        </script>
+    </body>
+</html>

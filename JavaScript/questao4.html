@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Lembrando que só vai conseguir ver a resposta no Console!</h1>
+        <a href="Index.html">Back</a>
+        <script>
+            function experiencia(anos) {
+                if(anos < 1){
+                    console.log("Você é um programador Iniciante!");
+                }else if(anos >= 1 && anos < 3 ){
+                    console.log("Você é um programador Intermediário!");
+                }else if(anos >= 3 && anos < 6 ){
+                    console.log("Você é um programador Avançado!");
+                }else if(anos >= 7){
+                    console.log("Você é um programador Jedi Master!");
+                }else{
+                    console.log("Você sabe o que é um Programador?");
+                }
+            }
+
+            var anosEstudo = 7;
+            experiencia(anosEstudo);
+            // De 0-1 ano: Iniciante
+            // De 1-3 anos: Intermediário
+            // De 3-6 anos: Avançado
+            // De 7 acima: Jedi Master
+        </script>
+    </body>
+</html>
